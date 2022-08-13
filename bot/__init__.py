@@ -619,9 +619,9 @@ except KeyError:
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'tg://settings/'
+        AUTHOR_URL = 'https://t.me/vava_tg'
 except KeyError:
-    AUTHOR_URL = 'tg://settings/'
+    AUTHOR_URL = 'https://t.me/vava_tg'
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
