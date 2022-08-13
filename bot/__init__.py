@@ -613,27 +613,27 @@ except KeyError:
 try:
     AUTHOR_NAME = getConfig('AUTHOR_NAME')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'Dipesh'
+        AUTHOR_NAME = 'Steve'
 except KeyError:
-    AUTHOR_NAME = 'Dipesh'
+    AUTHOR_NAME = 'Steve'
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/dipeshmirror'
+        AUTHOR_URL = 'tg://settings/'
 except KeyError:
-    AUTHOR_URL = 'https://t.me/dipeshmirror'
+    AUTHOR_URL = 'tg://settings/'
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by Reflection Mirror Bot'
+        GD_INFO = 'Steve Mirrors'
 except KeyError:
-    GD_INFO = 'Uploaded by Reflection Mirror Bot'
+    GD_INFO = 'Steve Mirrors'
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'Reflection-Mirror-Search'
+        TITLE_NAME = 'Steve'
 except KeyError:
-    TITLE_NAME = 'Reflection-Mirror-Search'
+    TITLE_NAME = 'Steve'
 try:
     FINISHED_PROGRESS_STR = getConfig('FINISHED_PROGRESS_STR') 
     UN_FINISHED_PROGRESS_STR = getConfig('UN_FINISHED_PROGRESS_STR')
@@ -731,7 +731,7 @@ except:
 try:
     IMAGE_URL = getConfig('IMAGE_URL')
 except KeyError:
-    IMAGE_URL = 'http://telegra.ph/REFLECTION-07-18'
+    IMAGE_URL = 'https://telegra.ph/file/ee82ed97c6cf5e7dc8bd0.jpg'
 
 updater = tgUpdater(token=BOT_TOKEN, request_kwargs={'read_timeout': 20, 'connect_timeout': 15})
 bot = updater.bot
